@@ -30,11 +30,6 @@ def find_valid_calls(planeteer_calls)
     # are any of the passed in calls valid?
     # if so, return the first valid call
     # if not, return nil
-    if element.include?(valid_calls)
-      element.first
-    else
-      nil
-    end
   end
 end
 
