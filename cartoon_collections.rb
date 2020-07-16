@@ -30,6 +30,8 @@ def find_valid_calls(planeteer_calls)
     # if element is equal to valid_calls
     #   return the first element of valid_call found
     # else return nil
+    if element == valid_calls
+      valid_calls.first
   end
 end
 
